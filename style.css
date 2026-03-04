@@ -1,0 +1,57 @@
+/*estiização padrão da pagina*/
+
+body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+/*estilização do header da pagina*/
+
+header{
+    background-color: rgb(110, 25, 53);
+    padding-bottom: 40px 0 40px;
+}
+.logo{
+    width:10%;
+    /*margin-left: 8%;*/
+    padding-left: 6%;
+}
+
+nav{
+    color: white;
+    position: absolute;
+    top: 10%;
+    right: 2%;
+    font-size: 28;
+}
+nav li{
+    display: inline;
+    margin-right: 40px;
+
+}
+.divHeader{
+    position: relative;
+}
+.banner{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.sobre_nos{
+    width: 70%;
+    margin-left: 15%;
+    text-align: justify;
+    font-size: 20;
+}
+
+.img_sobre_nos{
+    width: 15%;
+    float: left;
+    margin-right: 20px;
+}
+
+.titulo_sobre_nos{
+    clear: left;
+    text-align: center;
+}
